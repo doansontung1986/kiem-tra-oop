@@ -3,8 +3,6 @@ package logichandle;
 import entity.Staff;
 import utilities.CheckValidInput;
 
-import java.util.Scanner;
-
 public class StaffLogic {
     private final Staff[] staffList = new Staff[100];
 

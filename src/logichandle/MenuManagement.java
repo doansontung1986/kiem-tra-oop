@@ -36,9 +36,11 @@ public class MenuManagement {
                     switch (subMenuChoice) {
                         case 1:
                             saleListLogic.sortSaleListByStaffName();
+                            saleListLogic.displaySaleLists();
                             break;
                         case 2:
                             saleListLogic.sortSaleListByItemGroup();
+                            saleListLogic.displaySaleLists();
                             break;
                         default:
                             System.out.println("Lựa chọn không hợp lệ");

@@ -29,6 +29,6 @@ public class SaleList {
 
     @Override
     public String toString() {
-        return "SaleList{" + "staff=" + staff + ", saleDetails=" + Arrays.toString(saleDetails) + '}';
+        return "SaleList{" + "staff=" + staff.getName() + ", saleDetails=" + Arrays.toString(saleDetails) + '}';
     }
 }
